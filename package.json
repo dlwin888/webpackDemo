@@ -4,6 +4,8 @@
   "description": "webpack学习",
   "main": "main.js",
   "scripts": {
+    "dev": "webpack --mode development --watch --progress --display-modules --colors --display-reasons",
+    "build": "webpack --mode production",
     "start": "webpack-dev-server --mode development --output-public-path dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
